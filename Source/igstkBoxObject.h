@@ -18,6 +18,7 @@
 #ifndef __igstkBoxObject_h
 #define __igstkBoxObject_h
 
+#include "igstk_export.h"
 #include "igstkMacros.h"
 #include "igstkSpatialObject.h"
 #include <itkGroupSpatialObject.h>
@@ -36,7 +37,7 @@ namespace igstk
  * \ingroup Object
  */
 
-class BoxObject 
+class IGSTK_EXPORT BoxObject 
 : public SpatialObject
 {
 

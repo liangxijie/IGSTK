@@ -17,6 +17,7 @@
 #ifndef __igstkMeshReader_h
 #define __igstkMeshReader_h
 
+#include "igstk_export.h"
 #include "igstkSpatialObjectReader.h"
 #include "igstkMeshObject.h"
 
@@ -67,7 +68,7 @@ public:
  *
  * \ingroup Readers
  */
-class MeshReader : public SpatialObjectReader<3,float>
+class IGSTK_EXPORT MeshReader : public SpatialObjectReader<3,float>
 {
 
 public:

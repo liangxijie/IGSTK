@@ -18,6 +18,7 @@
 #ifndef __igstkToolProjectionSpatialObject_h
 #define __igstkToolProjectionSpatialObject_h
 
+#include "igstk_export.h"
 #include "igstkMacros.h"
 #include "igstkSpatialObject.h"
 #include "itkGroupSpatialObject.h"
@@ -36,7 +37,7 @@ namespace igstk
  * \sa ToolProjectionRepresentation
  */
 
-class ToolProjectionSpatialObject 
+class IGSTK_EXPORT ToolProjectionSpatialObject 
 : public SpatialObject
 {
 

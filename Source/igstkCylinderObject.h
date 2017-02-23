@@ -18,6 +18,7 @@
 #ifndef __igstkCylinderObject_h
 #define __igstkCylinderObject_h
 
+#include "igstk_export.h"
 #include "igstkMacros.h"
 #include "igstkSpatialObject.h"
 #include <itkCylinderSpatialObject.h>
@@ -34,7 +35,7 @@ namespace igstk
  * \ingroup Object
  */
 
-class CylinderObject 
+class IGSTK_EXPORT CylinderObject 
 : public SpatialObject
 {
 

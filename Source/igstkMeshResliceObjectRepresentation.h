@@ -18,6 +18,7 @@
 #ifndef __igstkMeshResliceObjectRepresentation_h
 #define __igstkMeshResliceObjectRepresentation_h
 
+#include "igstk_export.h"
 #include "igstkMacros.h"
 #include "igstkTransform.h"
 #include "igstkMeshObject.h"
@@ -40,7 +41,7 @@ namespace igstk
  * \ingroup ObjectRepresentation
  */
 
-class MeshResliceObjectRepresentation 
+class IGSTK_EXPORT MeshResliceObjectRepresentation 
 : public ObjectRepresentation
 {
 

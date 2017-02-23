@@ -18,6 +18,7 @@
 #ifndef __igstkAxesObjectRepresentation_h
 #define __igstkAxesObjectRepresentation_h
 
+#include "igstk_export.h"
 #include "igstkMacros.h"
 #include "igstkObjectRepresentation.h"
 #include "igstkAxesObject.h"
@@ -43,7 +44,7 @@ namespace igstk
  * \ingroup ObjectRepresentation
  */
 
-class AxesObjectRepresentation 
+class IGSTK_EXPORT AxesObjectRepresentation 
 : public ObjectRepresentation
 {
 

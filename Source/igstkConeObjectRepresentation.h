@@ -18,6 +18,7 @@
 #ifndef __igstkConeObjectRepresentation_h
 #define __igstkConeObjectRepresentation_h
 
+#include "igstk_export.h"
 #include "igstkMacros.h"
 #include "igstkObjectRepresentation.h"
 #include "igstkConeObject.h"
@@ -43,7 +44,7 @@ namespace igstk
  *  \ingroup ObjectRepresentation
  */
 
-class ConeObjectRepresentation 
+class IGSTK_EXPORT ConeObjectRepresentation 
 : public ObjectRepresentation
 {
 

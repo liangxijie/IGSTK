@@ -18,6 +18,8 @@
 #ifndef __igstkReslicerPlaneSpatialObject_h
 #define __igstkReslicerPlaneSpatialObject_h
 
+#include "igstk_export.h"
+
 #include "igstkMacros.h"
 #include "igstkTransform.h"
 #include "igstkSpatialObject.h"
@@ -60,7 +62,7 @@ namespace igstk
  * \ingroup SpatialObject
  */
 
-class ReslicerPlaneSpatialObject : public SpatialObject
+class IGSTK_EXPORT ReslicerPlaneSpatialObject : public SpatialObject
 {
 
 public:

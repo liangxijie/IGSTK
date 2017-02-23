@@ -18,6 +18,7 @@
 #ifndef __igstkMeshObjectRepresentation_h
 #define __igstkMeshObjectRepresentation_h
 
+#include "igstk_export.h"
 #include "igstkMacros.h"
 #include "igstkObjectRepresentation.h"
 #include "igstkMeshObject.h"
@@ -38,7 +39,7 @@ namespace igstk
  * \ingroup ObjectRepresentation
  */
 
-class MeshObjectRepresentation 
+class IGSTK_EXPORT MeshObjectRepresentation 
 : public ObjectRepresentation
 {
 

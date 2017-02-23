@@ -18,6 +18,7 @@
 #ifndef __igstkMeshObject_h
 #define __igstkMeshObject_h
 
+#include "igstk_export.h"
 #include "igstkSpatialObject.h"
 #include <itkMeshSpatialObject.h>
 #include <itkTetrahedronCell.h>
@@ -44,7 +45,7 @@ class MeshReaderToMeshSpatialObject;
  * \ingroup Object
  */
 
-class MeshObject 
+class IGSTK_EXPORT MeshObject 
 : public SpatialObject
 {
 

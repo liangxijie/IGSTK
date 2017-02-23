@@ -18,6 +18,8 @@
 #ifndef __igstkCrossHairSpatialObject_h
 #define __igstkCrossHairSpatialObject_h
 
+#include "igstk_export.h"
+
 #include "igstkMacros.h"
 #include "igstkTransform.h"
 #include "igstkSpatialObject.h"
@@ -39,7 +41,7 @@ namespace igstk
  */
 
 
-class CrossHairSpatialObject : public SpatialObject
+class IGSTK_EXPORT CrossHairSpatialObject : public SpatialObject
 {
 
 public:

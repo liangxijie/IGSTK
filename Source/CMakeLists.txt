@@ -6,49 +6,49 @@
 include(GenerateExportHeader)
 
 SET(IGSTK_HEADS
-#  igstkUSImageObject.h
-#  igstkUSImageObjectRepresentation.h
-#  igstkUSImageReader.h
-#  igstkAnnotation2D.h
-#  igstkAxesObject.h
-#  igstkAxesObjectRepresentation.h
-#  igstkBoxObject.h
-#  igstkBoxObjectRepresentation.h
-#  igstkConeObject.h
-#  igstkConeObjectRepresentation.h
-#  igstkImageReader.h
-#  igstkDICOMImageReader.h
-#  igstkCTImageReader.h
-#  igstkMRImageReader.h
-#  igstkImageSpatialObject.h
-#  igstkCTImageSpatialObject.h
-#  igstkMRImageSpatialObject.h
-#  igstkImageSpatialObjectRepresentation.h
-#  igstkCTImageSpatialObjectRepresentation.h
-#  igstkMRImageSpatialObjectRepresentation.h
-#  igstkLandmark3DRegistration.h
-#  igstkLandmark3DRegistrationErrorEstimator.h
+  igstkUSImageObject.h
+  igstkUSImageObjectRepresentation.h
+  igstkUSImageReader.h
+  igstkAnnotation2D.h
+  igstkAxesObject.h
+  igstkAxesObjectRepresentation.h
+  igstkBoxObject.h
+  igstkBoxObjectRepresentation.h
+  igstkConeObject.h
+  igstkConeObjectRepresentation.h
+  igstkImageReader.h
+  igstkDICOMImageReader.h
+  igstkCTImageReader.h
+  igstkMRImageReader.h
+  igstkImageSpatialObject.h
+  igstkCTImageSpatialObject.h
+  igstkMRImageSpatialObject.h
+  igstkImageSpatialObjectRepresentation.h
+  igstkCTImageSpatialObjectRepresentation.h
+  igstkMRImageSpatialObjectRepresentation.h
+  igstkLandmark3DRegistration.h
+  igstkLandmark3DRegistrationErrorEstimator.h
   igstkAuroraTracker.h
   igstkAuroraTrackerTool.h
   igstkBinaryData.h
   igstkCommunication.h
-#  igstkCylinderObject.h
-#  igstkCylinderObjectRepresentation.h
-#  igstkEllipsoidObject.h
-#  igstkEllipsoidObjectRepresentation.h
+  igstkCylinderObject.h
+  igstkCylinderObjectRepresentation.h
+  igstkEllipsoidObject.h
+  igstkEllipsoidObjectRepresentation.h
   igstkEvents.h
   igstkMacros.h
-#  igstkMeshObject.h
-#  igstkMeshObjectRepresentation.h
+  igstkMeshObject.h
+  igstkMeshObjectRepresentation.h
   igstkMultipleOutput.h
   igstkNDICommandInterpreter.h
   igstkNDIErrorEvent.h
-#  igstkObjectRepresentation.h
+  igstkObjectRepresentation.h
   igstkObject.h
   igstkPolarisTracker.h
   igstkPolarisTrackerTool.h
   igstkPulseGenerator.h
-#  igstkRenderWindowInteractor.h
+  igstkRenderWindowInteractor.h
   igstkRealTimeClock.h
   igstkSerialCommunication.h
   igstkSerialCommunicationSimulator.h
@@ -62,15 +62,15 @@ SET(IGSTK_HEADS
   igstkToken.h
   igstkTracker.h
   igstkTrackerTool.h
-#  igstkTubeObject.h
-#  igstkTubeObjectRepresentation.h
-#  igstkUltrasoundProbeObject.h
-#  igstkUltrasoundProbeObjectRepresentation.h
-#  igstkVTKLoggerOutput.h
-#  igstkSpatialObjectReader.h
-#  igstkTubeReader.h
-#  igstkMeshReader.h
-#  igstkGroupObject.h
+  igstkTubeObject.h
+  igstkTubeObjectRepresentation.h
+  igstkUltrasoundProbeObject.h
+  igstkUltrasoundProbeObjectRepresentation.h
+  igstkVTKLoggerOutput.h
+  igstkSpatialObjectReader.h
+  igstkTubeReader.h
+  igstkMeshReader.h
+  igstkGroupObject.h
   igstkLogger.h
   igstkCoordinateSystem.h
   igstkCoordinateSystemDelegator.h
@@ -87,9 +87,9 @@ SET(IGSTK_HEADS
   igstkAffineTransform.h
   igstkPerspectiveTransform.h
 
-#  igstkView.h
-#  igstkView2D.h
-#  igstkView3D.h
+  igstkView.h
+  igstkView2D.h
+  igstkView3D.h
 
 # Ascension tracker support
   igstkAscensionCommandInterpreter.h
@@ -97,22 +97,22 @@ SET(IGSTK_HEADS
   igstkAscensionTrackerTool.h
 
 # Reslicing component support
-#  igstkReslicerPlaneSpatialObject.h
-#  igstkToolProjectionSpatialObject.h
-#  igstkToolProjectionObjectRepresentation.h
-#  igstkMeshResliceObjectRepresentation.h
-#  igstkImageResliceObjectRepresentation.h
+  igstkReslicerPlaneSpatialObject.h
+  igstkToolProjectionSpatialObject.h
+  igstkToolProjectionObjectRepresentation.h
+  igstkMeshResliceObjectRepresentation.h
+  igstkImageResliceObjectRepresentation.h
 
-#  igstkCrossHairSpatialObject.h
-#  igstkCrossHairObjectRepresentation.h
+  igstkCrossHairSpatialObject.h
+  igstkCrossHairObjectRepresentation.h
 
-#  igstkPivotCalibrationAlgorithm.h
+  igstkPivotCalibrationAlgorithm.h
 
-#  igstkPivotCalibration.h
+  igstkPivotCalibration.h
 
-#  igstkPETImageReader.h
-#  igstkPETImageSpatialObject.h
-#  igstkPETImageSpatialObjectRepresentation.h
+  igstkPETImageReader.h
+  igstkPETImageSpatialObject.h
+  igstkPETImageSpatialObjectRepresentation.h
 
   igstkNDICommandInterpreterClassic.h
   igstkPolarisClassicTracker.h
@@ -235,51 +235,51 @@ ENDIF(IGSTK_USE_VideoImager)
 # The implementation files
 
 SET(IGSTK_SRCS
-#  igstkUSImageObject.cxx
-#  igstkUSImageObjectRepresentation.cxx
-#  igstkUSImageReader.cxx
-#  igstkMR3DImageToUS3DImageRegistration.cxx
-#  igstkAnnotation2D.cxx
-#  igstkAxesObject.cxx
-#  igstkAxesObjectRepresentation.cxx
-#  igstkBoxObject.cxx
-#  igstkBoxObjectRepresentation.cxx
-#  igstkConeObject.cxx
-#  igstkConeObjectRepresentation.cxx
-#  igstkImageReader.txx
-#  igstkDICOMImageReader.txx
-#  igstkCTImageReader.cxx
-#  igstkMRImageReader.cxx
-#  igstkImageSpatialObject.txx
-#  igstkCTImageSpatialObject.cxx
-#  igstkMRImageSpatialObject.cxx
-#  igstkImageSpatialObjectRepresentation.txx
-#  igstkCTImageSpatialObjectRepresentation.cxx
-#  igstkMRImageSpatialObjectRepresentation.cxx
-#  igstkLandmark3DRegistration.cxx
-#  igstkLandmark3DRegistrationErrorEstimator.cxx
+  igstkUSImageObject.cxx
+  igstkUSImageObjectRepresentation.cxx
+  igstkUSImageReader.cxx
+  igstkMR3DImageToUS3DImageRegistration.cxx
+  igstkAnnotation2D.cxx
+  igstkAxesObject.cxx
+  igstkAxesObjectRepresentation.cxx
+  igstkBoxObject.cxx
+  igstkBoxObjectRepresentation.cxx
+  igstkConeObject.cxx
+  igstkConeObjectRepresentation.cxx
+  igstkImageReader.txx
+  igstkDICOMImageReader.txx
+  igstkCTImageReader.cxx
+  igstkMRImageReader.cxx
+  igstkImageSpatialObject.txx
+  igstkCTImageSpatialObject.cxx
+  igstkMRImageSpatialObject.cxx
+  igstkImageSpatialObjectRepresentation.txx
+  igstkCTImageSpatialObjectRepresentation.cxx
+  igstkMRImageSpatialObjectRepresentation.cxx
+  igstkLandmark3DRegistration.cxx
+  igstkLandmark3DRegistrationErrorEstimator.cxx
   igstkAuroraTracker.cxx
   igstkAuroraTrackerTool.cxx
   igstkBinaryData.cxx
   igstkCommunication.cxx
-#  igstkCylinderObject.cxx
-#  igstkCylinderObjectRepresentation.cxx
-#  igstkEllipsoidObject.cxx
-#  igstkEllipsoidObjectRepresentation.cxx
-#  igstkMeshObject.cxx
-#  igstkMeshObjectRepresentation.cxx
+  igstkCylinderObject.cxx
+  igstkCylinderObjectRepresentation.cxx
+  igstkEllipsoidObject.cxx
+  igstkEllipsoidObjectRepresentation.cxx
+  igstkMeshObject.cxx
+  igstkMeshObjectRepresentation.cxx
   igstkMultipleOutput.cxx
   igstkNDICommandInterpreter.cxx
   igstkObject.cxx
-#  igstkObjectRepresentation.cxx
+  igstkObjectRepresentation.cxx
   igstkPolarisTracker.cxx
   igstkPolarisTrackerTool.cxx
   igstkPulseGenerator.cxx
-#  igstkRenderWindowInteractor.cxx
+  igstkRenderWindowInteractor.cxx
   igstkRealTimeClock.cxx
   igstkSerialCommunication.cxx
   igstkSerialCommunicationSimulator.cxx
-#  igstkSpatialObject.cxx
+  igstkSpatialObject.cxx
   igstkStateMachine.txx
   igstkTimeStamp.cxx
   igstkToken.cxx
@@ -287,14 +287,14 @@ SET(IGSTK_SRCS
   igstkTrackerTool.cxx
   igstkTransform.cxx
   igstkTransformBase.cxx
-#  igstkTubeObject.cxx
-#  igstkTubeObjectRepresentation.cxx
-#  igstkUltrasoundProbeObject.cxx
-#  igstkUltrasoundProbeObjectRepresentation.cxx
-#  igstkVTKLoggerOutput.cxx
-#  igstkTubeReader.cxx
-#  igstkMeshReader.cxx
-#  igstkGroupObject.cxx
+  igstkTubeObject.cxx
+  igstkTubeObjectRepresentation.cxx
+  igstkUltrasoundProbeObject.cxx
+  igstkUltrasoundProbeObjectRepresentation.cxx
+  igstkVTKLoggerOutput.cxx
+  igstkTubeReader.cxx
+  igstkMeshReader.cxx
+  igstkGroupObject.cxx
   igstkLogger.cxx
   igstkCoordinateSystem.cxx
   igstkCoordinateSystemDelegator.cxx
@@ -310,10 +310,10 @@ SET(IGSTK_SRCS
   igstkAffineTransform.cxx
   igstkPerspectiveTransform.cxx
 
-#  igstkView.cxx
-#  igstkView2D.cxx
-#  igstkView3D.cxx
-#  igstkViewProxyBase.cxx
+  igstkView.cxx
+  igstkView2D.cxx
+  igstkView3D.cxx
+  igstkViewProxyBase.cxx
 
 # Ascension tracker support
   igstkAscensionCommandInterpreter.cxx
@@ -321,22 +321,22 @@ SET(IGSTK_SRCS
   igstkAscensionTrackerTool.cxx
 
 # Reslicing component support
-#  igstkReslicerPlaneSpatialObject.cxx
+  igstkReslicerPlaneSpatialObject.cxx
 
-#  igstkToolProjectionSpatialObject.cxx
-#  igstkToolProjectionObjectRepresentation.cxx
-#  igstkMeshResliceObjectRepresentation.cxx
-#  igstkImageResliceObjectRepresentation.txx
-#  igstkCrossHairSpatialObject.cxx
-#  igstkCrossHairObjectRepresentation.cxx
+  igstkToolProjectionSpatialObject.cxx
+  igstkToolProjectionObjectRepresentation.cxx
+  igstkMeshResliceObjectRepresentation.cxx
+  igstkImageResliceObjectRepresentation.txx
+  igstkCrossHairSpatialObject.cxx
+  igstkCrossHairObjectRepresentation.cxx
 
-#  igstkPivotCalibrationAlgorithm.cxx
+  igstkPivotCalibrationAlgorithm.cxx
 
-#  igstkPivotCalibration.cxx
+  igstkPivotCalibration.cxx
 
-#  igstkPETImageReader.cxx
-#  igstkPETImageSpatialObject.cxx
-#  igstkPETImageSpatialObjectRepresentation.cxx
+  igstkPETImageReader.cxx
+  igstkPETImageSpatialObject.cxx
+  igstkPETImageSpatialObjectRepresentation.cxx
 
   igstkNDICommandInterpreterClassic.cxx
   igstkPolarisClassicTracker.cxx
@@ -528,9 +528,9 @@ ENDIF(IGSTK_USE_Ascension3DGTracker)
 
 # Add the correct version of the VTK OpenGL library
 IF(VTK_RENDERING_BACKEND STREQUAL "OpenGL2")
-  SET(EXTRA_LIBS ${EXTRA_LIBS} vtkRenderingOpenGL2)
+#  SET(EXTRA_LIBS ${EXTRA_LIBS} vtkRenderingOpenGL2)
 ELSE()
-  SET(EXTRA_LIBS ${EXTRA_LIBS} vtkRenderingOpenGL)
+#  SET(EXTRA_LIBS ${EXTRA_LIBS} vtkRenderingOpenGL)
 ENDIF()
 
 
@@ -539,39 +539,39 @@ ENDIF()
 ADD_LIBRARY(IGSTK ${IGSTK_HEADS} ${IGSTK_SRCS})
 
 GENERATE_EXPORT_HEADER(IGSTK)
+IF(BUILD_SHARED_LIBS)
+  ADD_DEFINITIONS(-DIGSTK_EXPORTS)
+ENDIF(BUILD_SHARED_LIBS)
 
 # Linking with the FLTK, ITK and VTK libraries
 TARGET_LINK_LIBRARIES( IGSTK
 	ITKCommon
-#	ITKOptimizers
-#	ITKIOMeta
-#	ITKIOXML
-#	ITKSpatialObjects
-#	ITKVTK
-#	ITKIOJPEG
-#	ITKIOGDCM
-#	ITKIOTIFF
-#	ITKIOPNG
-#	ITKIOLSM
-#	ITKIOVTK
-#	ITKIOStimulate
-#	ITKIOHDF5
-#	ITKIOBMP
-#	ITKIOBioRad
-#	ITKIONIFTI
-#	ITKIONRRD
-#	ITKIOGIPL
-	vtkRenderingCore
-	vtkRenderingFreeType
+	ITKOptimizers
+	ITKIOMeta
+	ITKIOXML
+	ITKSpatialObjects
+	ITKVTK
+	ITKIOJPEG
+	ITKIOGDCM
+	ITKIOTIFF
+	ITKIOPNG
+	ITKIOLSM
+	ITKIOVTK
+	ITKIOStimulate
+	ITKIOHDF5
+	ITKIOBMP
+	ITKIOBioRad
+	ITKIONIFTI
+	ITKIONRRD
+	ITKIOGIPL
+#	vtkRenderingCore
+#	vtkRenderingFreeType
 #	vtkRenderingFreeTypeOpenGL
 #	vtkRenderingOpenGL
 #	vtkRenderingOpenGL2
-	vtkInteractionStyle
-#    vtkRendering vtkGraphics vtkHybrid vtkImaging
-#	vtkIO
-#	vtkFiltering
-#	vtkCommon
-	vtksys
+#	vtkInteractionStyle
+	vtkRendering vtkGraphics vtkHybrid vtkImaging
+	vtkIO vtkFiltering vtkCommon vtksys
 	${EXTRA_LIBS}
 )
 

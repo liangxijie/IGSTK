@@ -18,6 +18,8 @@
 #ifndef __igstkToken_h
 #define __igstkToken_h
 
+#include "igstk_export.h"
+
 #include <string>
 #include <itkLightObject.h>
 #include "igstkMacros.h"
@@ -40,7 +42,7 @@ namespace igstk
     \sa StateMachineState
     \sa StateMachineAction */
 
-class Token
+class IGSTK_EXPORT Token
 {
 
 public:

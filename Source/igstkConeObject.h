@@ -18,6 +18,7 @@
 #ifndef __igstkConeObject_h
 #define __igstkConeObject_h
 
+#include "igstk_export.h"
 #include "igstkMacros.h"
 #include "igstkSpatialObject.h"
 #include <itkGroupSpatialObject.h>
@@ -35,7 +36,7 @@ namespace igstk
  * \ingroup Object
  */
 
-class ConeObject 
+class IGSTK_EXPORT ConeObject 
 : public SpatialObject
 {
 

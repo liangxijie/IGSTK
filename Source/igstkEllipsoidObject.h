@@ -18,6 +18,7 @@
 #ifndef __igstkEllipsoidObject_h
 #define __igstkEllipsoidObject_h
 
+#include "igstk_export.h"
 #include "igstkMacros.h"
 #include "igstkSpatialObject.h"
 #include "itkEllipseSpatialObject.h"
@@ -35,7 +36,7 @@ namespace igstk
  * \ingroup Object
  */
 
-class EllipsoidObject 
+class IGSTK_EXPORT EllipsoidObject 
 : public SpatialObject
 {
 

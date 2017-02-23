@@ -18,6 +18,7 @@
 #ifndef __igstkToolProjectionObjectRepresentation_h
 #define __igstkToolProjectionObjectRepresentation_h
 
+#include "igstk_export.h"
 #include "igstkMacros.h"
 #include "igstkObjectRepresentation.h"
 #include "igstkToolProjectionSpatialObject.h"
@@ -42,7 +43,7 @@ namespace igstk
  * \ingroup ObjectRepresentation
  */
 
-class ToolProjectionObjectRepresentation : public ObjectRepresentation
+class IGSTK_EXPORT ToolProjectionObjectRepresentation : public ObjectRepresentation
 {
 
 public:

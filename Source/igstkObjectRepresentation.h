@@ -18,6 +18,8 @@
 #ifndef __igstkObjectRepresentation_h
 #define __igstkObjectRepresentation_h
 
+#include "igstk_export.h"
+
 #ifdef _MSC_VER
 #pragma warning ( disable : 4786 )
 #endif
@@ -69,7 +71,7 @@ namespace igstk
  *
  * \ingroup Object
  */
-class ObjectRepresentation 
+class IGSTK_EXPORT ObjectRepresentation 
   : public Object
 {
 

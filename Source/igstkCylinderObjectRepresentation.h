@@ -18,6 +18,7 @@
 #ifndef __igstkCylinderObjectRepresentation_h
 #define __igstkCylinderObjectRepresentation_h
 
+#include "igstk_export.h"
 #include "igstkMacros.h"
 #include "igstkObjectRepresentation.h"
 #include "igstkCylinderObject.h"
@@ -42,7 +43,7 @@ namespace igstk
  * \ingroup ObjectRepresentation
  */
 
-class CylinderObjectRepresentation 
+class IGSTK_EXPORT CylinderObjectRepresentation 
 : public ObjectRepresentation
 {
 

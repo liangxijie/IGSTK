@@ -17,6 +17,8 @@
 #ifndef __igstkView_h
 #define __igstkView_h
 
+#include "igstk_export.h"
+
 #ifdef _MSC_VER
 #pragma warning ( disable : 4018 )
 //Warning about: identifier was truncated to '255' characters in the debug
@@ -70,7 +72,7 @@ namespace igstk {
  * \ingroup Object
  * \ingroup View
  */
-class View : public Object 
+class IGSTK_EXPORT View : public Object 
 {
 
 public:

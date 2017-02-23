@@ -18,6 +18,8 @@
 #ifndef __igstkAnnotation2D_h
 #define __igstkAnnotation2D_h
 
+#include "igstk_export.h"
+
 #ifdef _MSC_VER
 #pragma warning ( disable : 4786 )
 // Disabling warning C4355: 'this' : used in base member initializer list
@@ -50,7 +52,7 @@ class View;
  *
  * \ingroup Object
  */
-class Annotation2D 
+class IGSTK_EXPORT Annotation2D 
   : public Object
 {
 

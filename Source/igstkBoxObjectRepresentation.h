@@ -18,6 +18,7 @@
 #ifndef __igstkBoxObjectRepresentation_h
 #define __igstkBoxObjectRepresentation_h
 
+#include "igstk_export.h"
 #include "igstkMacros.h"
 #include "igstkObjectRepresentation.h"
 #include "igstkBoxObject.h"
@@ -43,7 +44,7 @@ namespace igstk
  * \ingroup ObjectRepresentation
  */
 
-class BoxObjectRepresentation 
+class IGSTK_EXPORT BoxObjectRepresentation 
 : public ObjectRepresentation
 {
 

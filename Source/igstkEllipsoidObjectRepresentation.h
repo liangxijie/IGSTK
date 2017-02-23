@@ -18,6 +18,7 @@
 #ifndef __igstkEllipsoidObjectRepresentation_h
 #define __igstkEllipsoidObjectRepresentation_h
 
+#include "igstk_export.h"
 #include "igstkMacros.h"
 #include "igstkObjectRepresentation.h"
 #include "igstkEllipsoidObject.h"
@@ -40,7 +41,7 @@ namespace igstk
  * \ingroup ObjectRepresentation
  */
 
-class EllipsoidObjectRepresentation 
+class IGSTK_EXPORT EllipsoidObjectRepresentation 
 : public ObjectRepresentation
 {
 

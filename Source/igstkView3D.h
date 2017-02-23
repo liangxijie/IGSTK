@@ -17,6 +17,7 @@
 #ifndef __igstkView3D_h
 #define __igstkView3D_h
 
+#include "igstk_export.h"
 #include "igstkView.h"
 
 namespace igstk {
@@ -40,7 +41,7 @@ namespace igstk {
  *  \ingroup View
  *
  */
-class View3D : public View 
+class IGSTK_EXPORT View3D : public View 
 {
 public:
 

@@ -45,7 +45,7 @@ namespace igstk
  *  \image latex igstkCoordinateSystemDelegator.eps 
  *  "CoordinateSystemDelegator State Machine Diagram" 
  */
-class CoordinateSystemDelegator : public Object
+class IGSTK_EXPORT CoordinateSystemDelegator : public Object
 {
 public: 
 

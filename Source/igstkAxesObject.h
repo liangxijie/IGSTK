@@ -18,6 +18,7 @@
 #ifndef __igstkAxesObject_h
 #define __igstkAxesObject_h
 
+#include "igstk_export.h"
 #include "igstkMacros.h"
 #include "igstkSpatialObject.h"
 #include "itkGroupSpatialObject.h"
@@ -35,7 +36,7 @@ namespace igstk
  * \ingroup Object
  */
 
-class AxesObject 
+class IGSTK_EXPORT AxesObject 
 : public SpatialObject
 {
 

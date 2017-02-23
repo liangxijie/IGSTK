@@ -18,6 +18,8 @@
 #ifndef __igstkCrossHairObjectRepresentation_h
 #define __igstkCrossHairObjectRepresentation_h
 
+#include "igstk_export.h"
+
 #include "igstkMacros.h"
 #include "igstkObjectRepresentation.h"
 #include "igstkCrossHairSpatialObject.h"
@@ -42,7 +44,7 @@ namespace igstk
  * \ingroup ObjectRepresentation
  */
 
-class CrossHairObjectRepresentation : public ObjectRepresentation
+class IGSTK_EXPORT CrossHairObjectRepresentation : public ObjectRepresentation
 {
 
 public:

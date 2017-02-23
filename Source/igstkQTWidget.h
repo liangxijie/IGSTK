@@ -18,6 +18,8 @@
 #ifndef __igstkQTWidget_h
 #define __igstkQTWidget_h
 
+#include "igstk_export.h"
+
 #ifdef _MSC_VER
 #pragma warning ( disable : 4018 )
 //Warning about: identifier was truncated to '255' characters in the debug
@@ -26,7 +28,7 @@
 #endif
 
 // QT dared to define macro called DEBUG!!
-#define QT_NO_DEBUG 1
+//#define QT_NO_DEBUG 1
 
 // VTK declarations
 class vtkRenderer;
@@ -62,7 +64,7 @@ namespace igstk {
  *
  * \ingroup View
  */
-class QTWidget : public QVTKWidget
+class IGSTK_EXPORT QTWidget : public QVTKWidget
 {
 public:
     

@@ -17,6 +17,7 @@
 #ifndef __igstkTimeStamp_h
 #define __igstkTimeStamp_h
 
+#include "igstk_export.h"
 
 #include <iostream>
 #include "igstkRealTimeClock.h"
@@ -52,7 +53,7 @@ namespace igstk
  * 
  * */
 
-class TimeStamp
+class IGSTK_EXPORT TimeStamp
 {
 
 public:

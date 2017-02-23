@@ -17,6 +17,7 @@
 #ifndef __igstkCTImageReader_h
 #define __igstkCTImageReader_h
 
+#include "igstk_export.h"
 #include "igstkDICOMImageReader.h"
 #include "igstkCTImageSpatialObject.h"
 
@@ -32,7 +33,7 @@ namespace igstk
  * \ingroup Readers
  */
 
-class CTImageReader : 
+class IGSTK_EXPORT CTImageReader : 
          public DICOMImageReader< CTImageSpatialObject >
 {
 

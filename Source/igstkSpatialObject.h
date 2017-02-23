@@ -18,6 +18,8 @@
 #ifndef __igstkSpatialObject_h
 #define __igstkSpatialObject_h
 
+#include "igstk_export.h"
+
 #include "igstkLogger.h"
 #include "itkSpatialObject.h"
 
@@ -54,7 +56,7 @@ namespace igstk
  *
  * \ingroup Object
  */
-class SpatialObject : public Object
+class IGSTK_EXPORT SpatialObject : public Object
 {
 
 public:
