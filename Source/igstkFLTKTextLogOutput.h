@@ -18,6 +18,8 @@
 #ifndef __igstkFLTKTextLogOutput_h
 #define __igstkFLTKTextLogOutput_h
 
+#include "igstk_export.h"
+
 #include <iostream>
 #include <string>
 
@@ -44,7 +46,7 @@ namespace igstk
  *  \ingroup Logging
  */
 
-class FLTKTextLogOutput : public ::itk::LogOutput
+class IGSTK_EXPORT FLTKTextLogOutput : public ::itk::LogOutput
 {
 
 public:

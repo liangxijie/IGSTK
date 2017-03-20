@@ -18,6 +18,8 @@
 #ifndef __igstkPivotCalibration_h
 #define __igstkPivotCalibration_h
 
+#include "igstk_export.h"
+
 #include "igstkStateMachine.h"
 #include "igstkMacros.h"
 #include "igstkEvents.h"
@@ -43,7 +45,7 @@ namespace igstk
  *  RequestComputeCalibration() method will start data acquistion and perform 
  *  calibration. 
  */
-class PivotCalibration : public Object
+class IGSTK_EXPORT PivotCalibration : public Object
 {
   
 public:

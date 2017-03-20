@@ -18,6 +18,8 @@
 #ifndef __igstkLandmark3DRegistration_h
 #define __igstkLandmark3DRegistration_h
 
+#include "igstk_export.h"
+
 #include "igstkStateMachine.h"
 #include "igstkEvents.h"
 #include "igstkMacros.h"
@@ -59,7 +61,7 @@ namespace igstk
  * \ingroup Registration 
  */
 
-class Landmark3DRegistration : public Object
+class IGSTK_EXPORT Landmark3DRegistration : public Object
 {
 
 public:

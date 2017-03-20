@@ -17,6 +17,8 @@
 #ifndef __igstkFLTKWidget_h
 #define __igstkFLTKWidget_h
 
+#include "igstk_export.h"
+
 #ifdef _MSC_VER
 #pragma warning ( disable : 4018 )
 //Warning about: identifier was truncated to '255' characters in the debug
@@ -53,7 +55,7 @@ namespace igstk {
  *
  *
  */
-class FLTKWidget : public Fl_Gl_Window
+class IGSTK_EXPORT FLTKWidget : public Fl_Gl_Window
 {
 
 public:

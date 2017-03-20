@@ -17,6 +17,8 @@
 #ifndef __igstkCTImageSpatialObjectRepresentation_h
 #define __igstkCTImageSpatialObjectRepresentation_h
 
+#include "igstk_export.h"
+
 #include "igstkImageSpatialObjectRepresentation.h"
 #include "igstkCTImageSpatialObject.h"
 #include "igstkStateMachine.h"
@@ -36,7 +38,7 @@ namespace igstk
  * \ingroup Spatial object representation
  */
 
-class CTImageSpatialObjectRepresentation : 
+class IGSTK_EXPORT CTImageSpatialObjectRepresentation : 
          public ImageSpatialObjectRepresentation< CTImageSpatialObject >
 {
 
