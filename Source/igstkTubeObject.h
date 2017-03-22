@@ -18,6 +18,8 @@
 #ifndef __igstkTubeObject_h
 #define __igstkTubeObject_h
 
+#include "igstk_export.h"
+
 #include "igstkMacros.h"
 #include "igstkSpatialObject.h"
 #include <itkTubeSpatialObject.h>
@@ -39,7 +41,7 @@ class TubeReaderToTubeSpatialObject;
  * \ingroup Object
  */
 
-class TubeObject 
+class IGSTK_EXPORT TubeObject 
 : public SpatialObject
 {
 

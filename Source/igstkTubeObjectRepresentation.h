@@ -18,6 +18,8 @@
 #ifndef __igstkTubeObjectRepresentation_h
 #define __igstkTubeObjectRepresentation_h
 
+#include "igstk_export.h"
+
 #include "igstkMacros.h"
 #include "igstkObjectRepresentation.h"
 #include "igstkTubeObject.h"
@@ -38,7 +40,7 @@ namespace igstk
  * \ingroup ObjectRepresentation
  */
 
-class TubeObjectRepresentation 
+class IGSTK_EXPORT TubeObjectRepresentation 
 : public ObjectRepresentation
 {
 
