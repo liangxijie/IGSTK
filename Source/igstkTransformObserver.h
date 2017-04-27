@@ -23,6 +23,7 @@
 #pragma warning( disable : 4786 )
 #endif
 
+#include "igstk_export.h"
 #include "igstkTransform.h"
 #include "igstkCoordinateSystemTransformToResult.h"
 #include "igstkCoordinateSystemTransformToErrorResult.h"
@@ -30,7 +31,7 @@
 namespace igstk
 {
 
-class TransformObserver : public ::itk::Command 
+class IGSTK_EXPORT TransformObserver : public ::itk::Command 
 {
 public:
   igstkStandardClassBasicTraitsMacro( TransformObserver, ::itk::Command );

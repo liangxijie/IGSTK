@@ -17,6 +17,7 @@
 #ifndef __igstkBinaryData_h
 #define __igstkBinaryData_h
 
+#include "igstk_export.h"
 
 #include <itkObject.h>
 #include <vector>
@@ -35,7 +36,7 @@ namespace igstk
  *
  * */
 
-class BinaryData
+class IGSTK_EXPORT BinaryData
 {
 public:
 

@@ -21,7 +21,6 @@
 
 #include "igstk_export.h"
 
-
 #include "igstkObject.h"
 #include "igstkMacros.h"
 #include "igstkStateMachine.h"

@@ -17,6 +17,8 @@
 #ifndef __igstkViewProxyBase_h
 #define __igstkViewProxyBase_h
 
+#include "igstk_export.h"
+
 class vtkRenderer;
 class vtkRenderWindowInteractor;
 
@@ -36,7 +38,7 @@ class View;
  * \ingroup View
  *
  */
-class ViewProxyBase 
+class IGSTK_EXPORT ViewProxyBase 
 {
 public:
 

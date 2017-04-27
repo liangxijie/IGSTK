@@ -18,6 +18,8 @@
 #ifndef __igstkPerspectiveTransform_h
 #define __igstkPerspectiveTransform_h
 
+#include "igstk_export.h"
+
 #include "igstkTransformBase.h"
 
 #include "vtkMatrix4x4.h"
@@ -43,7 +45,7 @@ namespace igstk
  * \sa TransformBase
  *
  * */
-  class PerspectiveTransform : public TransformBase
+class IGSTK_EXPORT PerspectiveTransform : public TransformBase
 {
 public:
   /** Extrinsic perspective camera parameters [R,t]*/ 

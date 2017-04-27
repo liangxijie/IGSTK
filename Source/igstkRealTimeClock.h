@@ -21,7 +21,6 @@
 
 #include "igstk_export.h"
 
-
 #include "itkIndent.h"
 
 namespace igstk

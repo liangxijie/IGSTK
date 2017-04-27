@@ -18,6 +18,7 @@
 #ifndef __igstkGroupObject_h
 #define __igstkGroupObject_h
 
+#include "igstk_export.h"
 #include "igstkMacros.h"
 #include "igstkSpatialObject.h"
 #include "itkGroupSpatialObject.h"
@@ -36,7 +37,7 @@ namespace igstk
  * \ingroup Object
  */
 
-class GroupObject 
+class IGSTK_EXPORT GroupObject 
 : public SpatialObject
 {
 

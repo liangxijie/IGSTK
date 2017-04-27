@@ -17,6 +17,7 @@
 #ifndef __igstkCTImageSpatialObject_h
 #define __igstkCTImageSpatialObject_h
 
+#include "igstk_export.h"
 #include "igstkImageSpatialObject.h"
 
 namespace igstk

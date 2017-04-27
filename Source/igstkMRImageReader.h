@@ -17,6 +17,7 @@
 #ifndef __igstkMRImageReader_h
 #define __igstkMRImageReader_h
 
+#include "igstk_export.h"
 #include "igstkDICOMImageReader.h"
 #include "igstkMRImageSpatialObject.h"
 
@@ -32,7 +33,7 @@ namespace igstk
  * \ingroup Readers
  */
 
-class MRImageReader : 
+class IGSTK_EXPORT MRImageReader : 
          public DICOMImageReader< MRImageSpatialObject >
 {
 

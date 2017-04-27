@@ -18,6 +18,7 @@ PURPOSE.  See the above copyright notices for more information.
 #ifndef __igstkQMouseTracker_h
 #define __igstkQMouseTracker_h
 
+#include "igstk_export.h"
 #include "igstkTracker.h"
 
 namespace igstk
@@ -34,7 +35,7 @@ namespace igstk
  *
  *   \ingroup Trackers
  */
-class QMouseTracker : public Tracker
+class IGSTK_EXPORT QMouseTracker : public Tracker
 {
 public:
 

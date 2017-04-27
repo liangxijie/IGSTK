@@ -235,10 +235,10 @@ ENDIF(IGSTK_USE_VideoImager)
 # The implementation files
 
 SET(IGSTK_SRCS
-  igstkUSImageObject.cxx
-  igstkUSImageObjectRepresentation.cxx
-  igstkUSImageReader.cxx
-  igstkMR3DImageToUS3DImageRegistration.cxx
+  #igstkUSImageObject.cxx
+  #igstkUSImageObjectRepresentation.cxx
+  #igstkUSImageReader.cxx
+  #igstkMR3DImageToUS3DImageRegistration.cxx
   igstkAnnotation2D.cxx
   igstkAxesObject.cxx
   igstkAxesObjectRepresentation.cxx
@@ -249,19 +249,19 @@ SET(IGSTK_SRCS
   igstkImageReader.txx
   igstkDICOMImageReader.txx
   igstkCTImageReader.cxx
-  igstkMRImageReader.cxx
+  #igstkMRImageReader.cxx
   igstkImageSpatialObject.txx
   igstkCTImageSpatialObject.cxx
-  igstkMRImageSpatialObject.cxx
+  #igstkMRImageSpatialObject.cxx
   igstkImageSpatialObjectRepresentation.txx
   igstkCTImageSpatialObjectRepresentation.cxx
-  igstkMRImageSpatialObjectRepresentation.cxx
-  igstkLandmark3DRegistration.cxx
-  igstkLandmark3DRegistrationErrorEstimator.cxx
-  igstkAuroraTracker.cxx
-  igstkAuroraTrackerTool.cxx
-  igstkBinaryData.cxx
-  igstkCommunication.cxx
+  #igstkMRImageSpatialObjectRepresentation.cxx
+  #igstkLandmark3DRegistration.cxx
+  #igstkLandmark3DRegistrationErrorEstimator.cxx
+  #igstkAuroraTracker.cxx
+  #igstkAuroraTrackerTool.cxx
+  #igstkBinaryData.cxx
+  #igstkCommunication.cxx
   igstkCylinderObject.cxx
   igstkCylinderObjectRepresentation.cxx
   igstkEllipsoidObject.cxx
@@ -269,16 +269,16 @@ SET(IGSTK_SRCS
   igstkMeshObject.cxx
   igstkMeshObjectRepresentation.cxx
   igstkMultipleOutput.cxx
-  igstkNDICommandInterpreter.cxx
+  #igstkNDICommandInterpreter.cxx
   igstkObject.cxx
   igstkObjectRepresentation.cxx
-  igstkPolarisTracker.cxx
-  igstkPolarisTrackerTool.cxx
+  #igstkPolarisTracker.cxx
+  #igstkPolarisTrackerTool.cxx
   igstkPulseGenerator.cxx
   igstkRenderWindowInteractor.cxx
   igstkRealTimeClock.cxx
-  igstkSerialCommunication.cxx
-  igstkSerialCommunicationSimulator.cxx
+  #igstkSerialCommunication.cxx
+  #igstkSerialCommunicationSimulator.cxx
   igstkSpatialObject.cxx
   igstkStateMachine.txx
   igstkTimeStamp.cxx
@@ -289,8 +289,8 @@ SET(IGSTK_SRCS
   igstkTransformBase.cxx
   igstkTubeObject.cxx
   igstkTubeObjectRepresentation.cxx
-  igstkUltrasoundProbeObject.cxx
-  igstkUltrasoundProbeObjectRepresentation.cxx
+  #igstkUltrasoundProbeObject.cxx
+  #igstkUltrasoundProbeObjectRepresentation.cxx
   igstkVTKLoggerOutput.cxx
   igstkTubeReader.cxx
   igstkMeshReader.cxx
@@ -302,10 +302,10 @@ SET(IGSTK_SRCS
   igstkCoordinateSystemTransformToErrorResult.cxx
   igstkCoordinateSystemSetTransformResult.cxx
 
-  igstkCircularSimulatedTracker.cxx
-  igstkSimulatedTrackerTool.cxx
-  igstkSimulatedTracker.cxx
-  igstkNDITracker.cxx
+  #igstkCircularSimulatedTracker.cxx
+  #igstkSimulatedTrackerTool.cxx
+  #igstkSimulatedTracker.cxx
+  #igstkNDITracker.cxx
 
   igstkAffineTransform.cxx
   igstkPerspectiveTransform.cxx
@@ -316,9 +316,9 @@ SET(IGSTK_SRCS
   igstkViewProxyBase.cxx
 
 # Ascension tracker support
-  igstkAscensionCommandInterpreter.cxx
-  igstkAscensionTracker.cxx
-  igstkAscensionTrackerTool.cxx
+  #igstkAscensionCommandInterpreter.cxx
+  #igstkAscensionTracker.cxx
+  #igstkAscensionTrackerTool.cxx
 
 # Reslicing component support
   igstkReslicerPlaneSpatialObject.cxx
@@ -330,16 +330,16 @@ SET(IGSTK_SRCS
   igstkCrossHairSpatialObject.cxx
   igstkCrossHairObjectRepresentation.cxx
 
-  igstkPivotCalibrationAlgorithm.cxx
+  #igstkPivotCalibrationAlgorithm.cxx
 
-  igstkPivotCalibration.cxx
+  #igstkPivotCalibration.cxx
 
-  igstkPETImageReader.cxx
-  igstkPETImageSpatialObject.cxx
-  igstkPETImageSpatialObjectRepresentation.cxx
+  #igstkPETImageReader.cxx
+  #igstkPETImageSpatialObject.cxx
+  #igstkPETImageSpatialObjectRepresentation.cxx
 
-  igstkNDICommandInterpreterClassic.cxx
-  igstkPolarisClassicTracker.cxx
+  #igstkNDICommandInterpreterClassic.cxx
+  #igstkPolarisClassicTracker.cxx
 )
 
 IF(IGSTK_USE_FLTK)
@@ -465,17 +465,17 @@ ENDIF(IGSTK_USE_VideoImager)
 
 IF( WIN32 )
   SET(IGSTK_HEADS ${IGSTK_HEADS}
-	igstkSerialCommunicationForWindows.h
+	#igstkSerialCommunicationForWindows.h
   )
   SET(IGSTK_SRCS ${IGSTK_SRCS}
-	igstkSerialCommunicationForWindows.cxx
+	#igstkSerialCommunicationForWindows.cxx
   )
 ELSE( WIN32 )
   SET(IGSTK_HEADS ${IGSTK_HEADS}
-	igstkSerialCommunicationForPosix.h
+	#igstkSerialCommunicationForPosix.h
   )
   SET(IGSTK_SRCS ${IGSTK_SRCS}
-	igstkSerialCommunicationForPosix.cxx
+	#igstkSerialCommunicationForPosix.cxx
   )
 ENDIF( WIN32 )
 

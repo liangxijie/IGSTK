@@ -18,6 +18,7 @@
 #ifndef __igstkQMouseTrackerTool_h
 #define __igstkQMouseTrackerTool_h
 
+#include "igstk_export.h"
 #include "igstkTrackerTool.h"
 
 namespace igstk
@@ -32,7 +33,7 @@ class QMouseTracker;
   *
   */
 
-class QMouseTrackerTool : public TrackerTool
+class IGSTK_EXPORT QMouseTrackerTool : public TrackerTool
 {
 public:
 

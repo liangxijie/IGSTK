@@ -21,6 +21,8 @@
 #ifndef __igstkVTKLoggerOutput_h
 #define __igstkVTKLoggerOutput_h
 
+#include "igstk_export.h"
+
 #include <vtkOutputWindow.h>
 #include <vtkSmartPointer.h>
 #include <igstkLogger.h>
@@ -43,7 +45,7 @@ namespace igstk
  *
  * \ingroup Logging
  */
-class VTKLoggerOutput : public vtkOutputWindow 
+class IGSTK_EXPORT VTKLoggerOutput : public vtkOutputWindow 
 {
 public:
   /** Standard class typedefs. */

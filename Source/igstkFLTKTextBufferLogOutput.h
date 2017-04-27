@@ -21,6 +21,8 @@
 #include <iostream>
 #include <string>
 
+#include "igstk_export.h"
+
 #include "itkObject.h"
 #include "itkObjectFactory.h"
 #include "itkSimpleFastMutexLock.h"
@@ -42,7 +44,7 @@ namespace igstk
  * \ingroup Logging
  */
 
-class FLTKTextBufferLogOutput : public ::itk::LogOutput
+class IGSTK_EXPORT FLTKTextBufferLogOutput : public ::itk::LogOutput
 {
 
 public:

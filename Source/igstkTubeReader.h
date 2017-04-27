@@ -17,6 +17,7 @@
 #ifndef __igstkTubeReader_h
 #define __igstkTubeReader_h
 
+#include "igstk_export.h"
 #include "igstkMacros.h"
 #include "igstkSpatialObjectReader.h"
 
@@ -42,7 +43,7 @@ namespace Friends
  * private, so that developers cannot gain access to the ITK or VTK layers of
  * these two classes.
  */
-class TubeReaderToTubeSpatialObject
+class IGSTK_EXPORT TubeReaderToTubeSpatialObject
 {
 public:
 

@@ -17,6 +17,8 @@
 #ifndef __igstkImageReader_h
 #define __igstkImageReader_h
 
+#include "igstk_export.h"
+
 #include "igstkMacros.h"
 #include "igstkStateMachine.h"
 #include "igstkObject.h"
@@ -40,7 +42,7 @@ namespace Friends
  * these two classes.
  *
  */
-class ImageReaderToImageSpatialObject
+class IGSTK_EXPORT ImageReaderToImageSpatialObject
 {
 public:
 

@@ -24,6 +24,8 @@
 #pragma warning( disable : 4284 )
 #endif
 
+#include "igstk_export.h"
+
 #include "vtkRenderWindowInteractor.h"
 
 #include "igstkMacros.h"
@@ -32,7 +34,7 @@ namespace igstk
 {
 
 
-class RenderWindowInteractor : public vtkRenderWindowInteractor
+class IGSTK_EXPORT RenderWindowInteractor : public vtkRenderWindowInteractor
 {
 public:
 

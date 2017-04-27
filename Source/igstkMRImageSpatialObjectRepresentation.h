@@ -17,6 +17,7 @@
 #ifndef __igstkMRImageSpatialObjectRepresentation_h
 #define __igstkMRImageSpatialObjectRepresentation_h
 
+#include "igstk_export.h"
 #include "igstkImageSpatialObjectRepresentation.h"
 #include "igstkMRImageSpatialObject.h"
 
@@ -30,7 +31,7 @@ namespace igstk
  * \ingroup Spatial object representation
  */
 
-class MRImageSpatialObjectRepresentation : 
+class IGSTK_EXPORT MRImageSpatialObjectRepresentation : 
          public ImageSpatialObjectRepresentation< MRImageSpatialObject >
 {
 
